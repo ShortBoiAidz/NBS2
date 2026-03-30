@@ -1,0 +1,177 @@
+.center {
+  text-align: center;
+}
+
+.nuhUh {
+  color: rgb(64, 211, 248);
+  text-align: center;
+  font-size: 100px;
+  font-family: Comic Sans MS;
+  text-decoration: underline;
+}
+
+.notAvailable {
+  text-decoration: line-through;
+  margin: 10px;
+  border-style: outset;
+  background-color: #f74e4e;
+  border-color: #da2828;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 16px;
+  padding: 5px;
+}
+
+.page {
+  margin: 10px;
+  border-style: outset;
+  background-color: #f7b34e;
+  border-color: #da9328;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 16px;
+  padding: 5px;
+}
+.page:hover,
+.logo:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.page:active {
+  background-color: hsl(36, 91%, 54%);
+  border-color: hsl(36, 71%, 41%);
+}
+
+.margin {
+  margin: 10px;
+  text-align: center;
+}
+
+.backgroundMusic {
+  border-style: outset;
+  background-color: #f7b34e;
+  border-color: #da9328;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  font-size: 12.5px;
+  margin: 10px;
+}
+
+.headWrap {
+  float: left;
+  width: 5rem;
+}
+
+.headLink {
+  cursor: pointer;
+}
+.headLink:active {
+  opacity: 0.7;
+}
+
+.parent {
+  margin: auto;
+}
+.parent:hover .child {
+  transform: translateX(50px); /* Slides to the right */
+}
+
+.child {
+  transition: transform 0.5s ease-out;
+}
+
+.galleryBody {
+  background: linear-gradient(180deg, rgb(224, 29, 29), rgb(255, 180, 100));
+  font-family: Comic Sans MS;
+  color: rgb(214, 203, 203);
+  margin: 2px;
+  display: grid;
+}
+
+.footer-icon {
+  color: rgb(159, 7, 7);
+}
+
+.logo:active {
+  opacity: 70%;
+}
+
+.download {
+  gap: 15px;
+  margin: 10px;
+  border-style: outset;
+  background-color: #f7b34e;
+  border-color: #da9328;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 16px;
+  padding: 5px;
+  height: 45px;
+  width: 150px;
+}
+.download:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.download:active {
+  background-color: hsl(36, 91%, 54%);
+  border-color: hsl(36, 71%, 41%);
+}
+
+.laws-list {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.laws-container {
+  font-size: 1.2em;
+}
+
+.errorDesc {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.laws-works {
+  padding: 15px;
+}
+
+.scroll-top {
+  --offset: 100px;
+  --fade: 80px;
+
+  display: flex;
+  align-items: flex-end;
+  width: 60px;
+  justify-self: end;
+  justify-content: flex-end;
+  --webkit-mask:linear-gradient(#0000 calc(100vh + var(--offset)),#000 calc(100vh + var(--offset) + var(--fade)));
+}
+
+.top {
+  position: sticky;
+  bottom: 20px;
+  margin-right:10px;
+
+  /* visual styling */
+  width:100%;
+  aspect-ratio:1;
+  background:#ff8b24;
+  border-radius:10px;
+}
+.top:before {
+  content:"";
+  position:absolute;
+  inset:30%;
+  transform:translateY(20%) rotate(-45deg);
+  border-top:5px solid #fff;
+  border-right:5px solid #fff;
+}

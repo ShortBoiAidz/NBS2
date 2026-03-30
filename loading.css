@@ -1,0 +1,45 @@
+.loading-screen {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(224, 23, 23), rgb(237, 124, 10));
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.loading {
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    animation: rotate 3s linear infinite;
+    margin: 0;
+}
+@keyframes rotate {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.loading span {
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    margin: 4px;
+    animation: scale 1.5s linear infinite;
+}
+.loading span:nth-child(1) {
+    background-color: #fa9f28;
+    transform-origin: bottom right;
+}
+.loading span:nth-child(2) {
+    background-color: #f89a20;
+    transform-origin: bottom left;
+}
+.loading span:nth-child(3) {
+    background-color: #f8b72c;
+    transform-origin: top right;
+}
+.loading span:nth-child(4) {
+    background-color: #f59c27;
+    transform-origin: top left;
+}

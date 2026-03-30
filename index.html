@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage | NBS2</title>
+    <link rel="icon" type="image/x-icon" href="noodlebox_logo.webp" />
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="noodlebox-general.css" />
+    <link rel="stylesheet" href="noodlebox-classes.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="loading.css" />
+    <link rel="stylesheet" href="border-box.css">
+    <link rel="stylesheet" href="images.css">
+
+    <!--Scripts-->
+    <script src="main-script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="loader.js"></script>
+
+    <!--Meta-->
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Home, Minecraft, HTML, CSS, JavaScript" />
+    <meta name="author" content="ShortBoiAidz" />
+    <meta name="description" content="NoodleBox Homepage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="loading-screen">
+        <div class="loading">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <section><!--Title and Description-->
+        <div class="center">
+          <h1>NoodleBox Season 2 — Discontinued</h1>
+          <h3>Memories still reside</h3>
+          <br>
+          <img
+            src="noodlebox_logo.webp"
+            alt="NoodleBox Logo"
+            onclick="secretAlert()"
+            width="14.8%"
+            loading="lazy"
+          /><br>
+        </div>
+      </section>
+
+      <section><!--Images-->
+        <div class="img-container">
+          <img
+            src="noodlebox_server.webp"
+            width="36.9%"
+            class="slideImg1"
+            loading="lazy"
+          />
+
+          <img
+            src="early_noodlebox.webp"
+            width="45%"
+            class="slideImg2"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section><!--Buttons-->
+        <div class="border-box-button-parent">
+          <div class="border-box-button">
+            <h2 class="border-box-info">Introduction:</h2>
+            <button class="page" onclick="location.href='gallery.html'">
+            The Gallery
+            </button>
+
+            <button class="page" onclick="location.href='introductions.html'">
+            Our Players
+            </button>
+
+            <button class="page" onclick="location.href='credits.html'">
+            Credits
+            </button>
+          </div>
+
+          <!--New Players-->
+          <div class="border-box-button">
+            <h2 class="border-box-info">For New Players:</h2>
+            <button class="page" onclick="location.href='server-laws.html'">
+            The Laws
+            </button>
+
+            <button class="page" onclick="location.href='join.html'">
+              How To Join
+            </button>
+          </div>
+
+          <!--Current Players-->
+          <div class="border-box-button">
+            <h2 class="border-box-info">For Current Players:</h2>
+            <button class="page" onclick="location.href='court-laws.html'">
+              The Court
+            </button>
+
+            <button class="page" onclick="location.href='upcoming.html'">
+              Upcoming Plans
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div class="scroll-top">
+        <a href="#" class="top"></a>
+      </div>
+
+      <footer>
+        <p>Official NoodleBox Socials:</p>
+        <a href="https://www.instagram.com/noodleboxsmp/" target="_blank" class="footer-icon">
+          <i class="fa fa-instagram" style="font-size: 35px"></i>
+        </a>
+        &nbsp;
+        <a href="https://discord.gg/5Bg3MHgjRY" target="_blank" class="footer-icon">
+          <i class="fa fa-discord" style="font-size: 30px"></i>
+        </a>
+        &nbsp;
+        <a href="https://www.facebook.com/noodleboxSMP/" target="_blank" class="footer-icon">
+          <i class="fa fa-facebook" style="font-size: 30px"></i>
+      </footer>
+    </div>
+  </body>
+</html>

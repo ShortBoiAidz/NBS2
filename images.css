@@ -1,0 +1,86 @@
+/* Image containers */
+.img-container {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.img-container img {
+  border: 5px outset rgb(218, 204, 122);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Chumber images */
+.img-container-chumber {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+.img-container-chumber img {
+  border: 5px outset rgb(218, 204, 122);
+  display: flex;
+}
+
+/* Homepage sliding images */
+.slideImg1 {
+  animation: slideInLeft 3s;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slideImg2 {
+  animation: slideInRight 3s;
+}
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Fading images */
+.fadeInImg {
+  opacity: 0;
+  animation: fadeInImage 3s forwards;
+}
+@keyframes fadeInImage {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Sliding up images */
+.slideUpImg {
+  animation: slideUp 3s;
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Steps for joining images */
+.img-container-steps {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-container-steps img {
+  transition: transform 0.3s ease;
+  border: 5px outset rgb(218, 204, 122);
+}

@@ -1,0 +1,43 @@
+#courtProcedure {
+  margin: 10px;
+  text-align: left;
+  font-weight: 100;
+}
+
+#warning {
+  font-size: 10px;
+  color: #bb2124;
+}
+
+#dyball {
+  color: #674F9D;
+}
+
+#aiden {
+  color: hsl(291, 77%, 71%);
+}
+
+#lewis {
+  color: #351563;
+}
+
+#liam {
+  color: #00b300;
+}
+
+#kade {
+  color: #747a61;
+}
+
+#jaali {
+  color: #554aec;
+}
+
+#peaanutt {
+  color: rgb(248, 202, 210);
+}
+
+#zipFile {
+  padding: 3px;
+  width: 175px;
+}

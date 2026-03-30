@@ -1,0 +1,94 @@
+/* Credits */
+.border-box-thanks {
+  text-align: center;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  font-family: Comic Sans MS;
+  color: rgb(214, 203, 203);
+  font-size: 1.2em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(130deg, rgb(248, 48, 48), rgb(237, 124, 10));
+  border-radius: 10px;
+  border: 2px solid hsl(36, 71%, 41%);
+  transition: transform 0.5s ease;
+  line-height: 50px;
+}
+.border-box-thanks:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Buttons */
+.border-box-button {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin: 20px;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  color: rgb(214, 203, 203);
+  margin-left: 70px;
+  margin-right: 70px;
+  background: linear-gradient(130deg, rgb(248, 48, 48), rgb(237, 124, 10));
+  border-radius: 10px;
+  border: 2px solid hsl(36, 71%, 41%);
+  transition: transform 0.5s ease;
+}
+.border-box-button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.border-box-button-parent {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+}
+
+/* Title for border boxes */
+.border-box-info {
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Normal border box */
+.border-box {
+  text-align: center;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  padding: 10px;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  color: rgb(214, 203, 203);
+  font-size: 1.2em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(130deg, rgb(248, 48, 48), rgb(237, 124, 10));
+  border-radius: 10px;
+  border: 2px solid hsl(36, 71%, 41%);
+  transition: transform 0.5s ease;
+  line-height: normal;
+}
+.border-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
