@@ -55,6 +55,7 @@
   display: flex;
   margin: 10px;
   flex-direction: row;
+  justify-content: center;
 }
 
 /* Title for border boxes */
